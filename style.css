@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+body {
+  background-image: url(./reed-geiger-ItlpSSGhfyU-unsplash.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-container {
+  display: flex;
+  margin-top: 2em;
+  gap: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.big-text {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.element {
+  text-align: center;
+}
+
+span {
+  font-size: 1.5em;
+  font-weight: 300;
+}
